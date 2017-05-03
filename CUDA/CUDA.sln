@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SquareKernel", "CUDA\CUDA.vcxproj", "{60F89DAC-5191-442A-89E5-7D44E1AE901E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicComputations", "BasicComputations", "{D8C0D7FF-D58E-4600-BDE2-ED26D846008C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImageProcessing", "ImageProcessing", "{AC03BC0E-D8BF-4863-AE4E-EDECF902164F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColorToBWImage", "ColorToBWImage\ColorToBWImage.vcxproj", "{49EBE9FC-699D-4E66-ABD0-E13F57DE90A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtomicOperations", "AtomicOperations\AtomicOperations.vcxproj", "{1AA6A91D-5DC1-4AC6-9C13-BDE78827B85D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlurringImage", "BlurringImage\BlurringImage.vcxproj", "{876F79EE-8688-428D-A262-735A0183B1A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60F89DAC-5191-442A-89E5-7D44E1AE901E}.Debug|x64.ActiveCfg = Debug|x64
+		{60F89DAC-5191-442A-89E5-7D44E1AE901E}.Debug|x64.Build.0 = Debug|x64
+		{60F89DAC-5191-442A-89E5-7D44E1AE901E}.Debug|x86.ActiveCfg = Debug|x64
+		{60F89DAC-5191-442A-89E5-7D44E1AE901E}.Debug|x86.Build.0 = Debug|x64
+		{60F89DAC-5191-442A-89E5-7D44E1AE901E}.Release|x64.ActiveCfg = Release|x64
+		{60F89DAC-5191-442A-89E5-7D44E1AE901E}.Release|x64.Build.0 = Release|x64
+		{60F89DAC-5191-442A-89E5-7D44E1AE901E}.Release|x86.ActiveCfg = Release|Win32
+		{60F89DAC-5191-442A-89E5-7D44E1AE901E}.Release|x86.Build.0 = Release|Win32
+		{49EBE9FC-699D-4E66-ABD0-E13F57DE90A1}.Debug|x64.ActiveCfg = Debug|x64
+		{49EBE9FC-699D-4E66-ABD0-E13F57DE90A1}.Debug|x64.Build.0 = Debug|x64
+		{49EBE9FC-699D-4E66-ABD0-E13F57DE90A1}.Debug|x86.ActiveCfg = Debug|x64
+		{49EBE9FC-699D-4E66-ABD0-E13F57DE90A1}.Debug|x86.Build.0 = Debug|x64
+		{49EBE9FC-699D-4E66-ABD0-E13F57DE90A1}.Release|x64.ActiveCfg = Release|x64
+		{49EBE9FC-699D-4E66-ABD0-E13F57DE90A1}.Release|x64.Build.0 = Release|x64
+		{49EBE9FC-699D-4E66-ABD0-E13F57DE90A1}.Release|x86.ActiveCfg = Release|Win32
+		{49EBE9FC-699D-4E66-ABD0-E13F57DE90A1}.Release|x86.Build.0 = Release|Win32
+		{1AA6A91D-5DC1-4AC6-9C13-BDE78827B85D}.Debug|x64.ActiveCfg = Debug|x64
+		{1AA6A91D-5DC1-4AC6-9C13-BDE78827B85D}.Debug|x64.Build.0 = Debug|x64
+		{1AA6A91D-5DC1-4AC6-9C13-BDE78827B85D}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AA6A91D-5DC1-4AC6-9C13-BDE78827B85D}.Debug|x86.Build.0 = Debug|Win32
+		{1AA6A91D-5DC1-4AC6-9C13-BDE78827B85D}.Release|x64.ActiveCfg = Release|x64
+		{1AA6A91D-5DC1-4AC6-9C13-BDE78827B85D}.Release|x64.Build.0 = Release|x64
+		{1AA6A91D-5DC1-4AC6-9C13-BDE78827B85D}.Release|x86.ActiveCfg = Release|Win32
+		{1AA6A91D-5DC1-4AC6-9C13-BDE78827B85D}.Release|x86.Build.0 = Release|Win32
+		{876F79EE-8688-428D-A262-735A0183B1A0}.Debug|x64.ActiveCfg = Debug|x64
+		{876F79EE-8688-428D-A262-735A0183B1A0}.Debug|x64.Build.0 = Debug|x64
+		{876F79EE-8688-428D-A262-735A0183B1A0}.Debug|x86.ActiveCfg = Debug|Win32
+		{876F79EE-8688-428D-A262-735A0183B1A0}.Debug|x86.Build.0 = Debug|Win32
+		{876F79EE-8688-428D-A262-735A0183B1A0}.Release|x64.ActiveCfg = Release|x64
+		{876F79EE-8688-428D-A262-735A0183B1A0}.Release|x64.Build.0 = Release|x64
+		{876F79EE-8688-428D-A262-735A0183B1A0}.Release|x86.ActiveCfg = Release|Win32
+		{876F79EE-8688-428D-A262-735A0183B1A0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60F89DAC-5191-442A-89E5-7D44E1AE901E} = {D8C0D7FF-D58E-4600-BDE2-ED26D846008C}
+		{49EBE9FC-699D-4E66-ABD0-E13F57DE90A1} = {AC03BC0E-D8BF-4863-AE4E-EDECF902164F}
+		{1AA6A91D-5DC1-4AC6-9C13-BDE78827B85D} = {D8C0D7FF-D58E-4600-BDE2-ED26D846008C}
+		{876F79EE-8688-428D-A262-735A0183B1A0} = {AC03BC0E-D8BF-4863-AE4E-EDECF902164F}
+	EndGlobalSection
+EndGlobal
