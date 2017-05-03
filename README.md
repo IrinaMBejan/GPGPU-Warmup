@@ -1,2 +1,2 @@
 # GPGPU-Warmup
-Some exercises I did in  C in order to fix better my knowledge.
+Different applications of CUDA and OpenCV for fixing knowledge in C/C++.
